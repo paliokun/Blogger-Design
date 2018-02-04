@@ -1,0 +1,165 @@
+div.status-msg-body{
+display:none;
+}
+div.status-msg-bg{
+display:none;
+}
+div.status-msg-border{
+display:none;
+}
+
+/*検索*/
+input.gsc-search-button{
+background-color:#5882FA;
+color:#fff;
+border:solid 2px #5882FA;
+}
+
+
+h2.category1{
+font-size:1em;
+background-color:#5882FA;
+color:#fff
+}
+
+h2.intro1{
+font-size:1em;
+background-color:#5882FA;
+color:#fff
+}
+
+h2.search1{
+font-size:1em;
+background-color:#5882FA;
+color:#fff
+}
+
+h2.spolink1{
+font-size:1em;
+background-color:#5882FA;
+color:#fff
+}
+
+h2.category1{
+font-size:1em;
+background-color:#5882FA;
+color:#fff
+}
+
+h2.intro1{
+font-size:1em;
+background-color:#5882FA;
+color:#fff
+}
+
+h2.search1{
+font-size:1em;
+background-color:#5882FA;
+color:#fff
+}
+
+h2.spolink1{
+font-size:1em;
+background-color:#5882FA;
+color:#fff
+}
+
+.blog-pager{
+display:none;
+}
+
+/*タイトル画像*/
+img#Header1_headerimg{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* パンくずリスト */
+.breadcrumb {
+    font-size:13px;
+}
+    .breadcrumb a {
+#ccc
+}
+.breadcrumb li {
+    display: inline;
+    list-style-type: none;
+}
+.breadcrumb li:after {
+    content: " > ";
+}
+.breadcrumb li:last-child:after{
+    content: none;
+}
+ul.breadcrumb{
+font-weight: 900;
+    font-size: 1.5em;
+}
+
+/*ブログタイトル*/
+.Header h1 {
+    background-color:#fff;
+    text-align: center;
+}
+
+/*フォントのサイズ*/
+h1{
+    font-size:3em;
+}
+
+h2{
+    font-size:2em;
+    padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+    color: #494949;/*文字色*/
+    background: #f4f4f4;/*背景色*/
+    border-left: solid 5px #5882FA;/*左線*/
+    border-bottom: solid 3px #d7d7d7;/*下線*/
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h3{
+    font-size:1.5em;
+    padding: 0.25em 0.5em;/*上下 左右の余白*/
+    color: #494949;/*文字色*/
+    background: transparent;/*背景透明に*/
+    border-left: solid 5px #01A9DB;/*左線*/
+}
+
+h4{
+    font-size:1em;
+}
+
+/*  目次のデザイン  */
+  #toc:before{
+    content:"目次";/*目次のタイトル*/
+    padding:0.5em;
+    font-weight:800;
+    color:#fff;
+    background-color:#5882FA;
+    font-size:1.3em
+  }
+  #toc{
+    background-color:#fff; /*目次の背景色*/
+    display:block;
+    margin:1em 0;
+    border: solid 3px #5882FA;/*目次の枠線*/
+  }
+  #toc li{
+    list-style:none;
+    margin-bottom:1em;
+    margin-top:1em;
+    font-size:1.3em;
+  }
+  #toc ul{
+   margin-bottom:0;
+}
+  #toc:before{
+   font-family: FontAwesome;
+   display:block;
+   text-align:center;
+}
+  .chapter-no{
+   position: relative;
+   top:-2.5em;
+}
